@@ -1,0 +1,36 @@
+html body:before {
+  content: '""';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -10;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("/static/img/background/bg.page.about.320.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+@media screen and (min-width: 640px) {
+  html body:before {
+    background-image: url("/static/img/background/bg.page.about.640.jpg");
+  }
+}
+@media screen and (min-width: 960px) {
+  html body:before {
+    background-image: url("/static/img/background/bg.page.about.960.jpg");
+  }
+}
+@media screen and (min-width: 1280px) {
+  html body:before {
+    background-image: url("/static/img/background/bg.page.about.1280.jpg");
+  }
+}
+@media screen and (min-width: 1920px) {
+  html body:before {
+    background-image: url("/static/img/background/bg.page.about.1920.jpg");
+  }
+}
